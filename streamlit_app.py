@@ -6,10 +6,7 @@ from io import BytesIO
 import random
 import time
 
-# 📂 Path to your Excel file (⚠️ Use raw string for Windows path)
-EXCEL_FILE = r"C:\er5FILES\chinese_learning_streamlit (1).xlsx"
-
-# Load Excel
+EXCEL_FILE = "chinese_learning_streamlit (1).xlsx"
 df = pd.read_excel(EXCEL_FILE)
 
 # Initialize session state for quiz
