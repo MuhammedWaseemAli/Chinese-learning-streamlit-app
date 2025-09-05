@@ -6,7 +6,7 @@ from io import BytesIO
 import random
 import time
 
-EXCEL_FILE = "chinese_learning_streamlit (1).xlsx"
+EXCEL_FILE = "china.xlsx"
 df = pd.read_excel(EXCEL_FILE)
 
 # Initialize session state for quiz
